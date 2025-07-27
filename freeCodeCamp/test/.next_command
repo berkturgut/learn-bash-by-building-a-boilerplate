@@ -180,3 +180,29 @@ mkdir images
 cd images
 touch background.jpg
 cd ../../..
+cd
+cd images
+cd imgaes
+cd images
+ls --color=auto
+pwd
+cd camper
+ls --color=auto
+ls --color=auto
+pwd
+cd camper
+ls --color=auto
+pwd
+cd ..
+ls --color=auto
+pwd
+cd home
+cd ..
+ls --color=auto
+cd workspace
+ls --color=auto
+cd project
+ls --color=auto
+cd website
+ls --color=auto
+cd images
