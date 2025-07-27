@@ -49,3 +49,4 @@ cd ..
 şs
 ls --color=auto
 more package.json
+clear
