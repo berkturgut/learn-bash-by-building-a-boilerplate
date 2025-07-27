@@ -224,3 +224,18 @@ find assets
 find client/assets/images
 find --name images
 find -name images
+mv client/assets/images/header.png website
+ls --color=auto
+find -name images
+find header.png
+ls --color=auto
+cd client
+ls --color=auto
+find
+cd ..
+ls --color=auto
+ls --color=auto -a
+touch header.png
+ls --color=auto
+find -name images
+mv header.png client/assets/images
