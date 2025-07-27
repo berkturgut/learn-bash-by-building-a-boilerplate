@@ -266,3 +266,4 @@ find client/asssets/fonts
 find
 rm --help
 rm --recursive fonts
+ls --color=auto
