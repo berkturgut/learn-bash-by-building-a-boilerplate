@@ -83,3 +83,4 @@ cd .
 cd project
 ls --color=auto
 clear
+mkdir website
