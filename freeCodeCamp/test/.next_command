@@ -267,3 +267,4 @@ find
 rm --help
 rm --recursive fonts
 ls --color=auto
+touch package.json
