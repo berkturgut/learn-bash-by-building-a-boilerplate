@@ -149,3 +149,4 @@ ls --color=auto
 mv lato.font lato.tff
 ls --color=auto
 mv lato.tff lato.ttf
+mv menlo.font menlo.otf
