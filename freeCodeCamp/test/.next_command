@@ -48,3 +48,4 @@ ls --color=auto
 cd ..
 şs
 ls --color=auto
+more package.json
