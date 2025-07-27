@@ -95,3 +95,4 @@ rm style.css
 ls --color=auto
 touch styles.css
 ls --color=auto
+touch index.js
