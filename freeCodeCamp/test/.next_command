@@ -289,3 +289,5 @@ ls --color=auto
 copy --help
 copy -help
 cp --help
+ls --color=auto
+cp -r website-boilerplate toms-website
