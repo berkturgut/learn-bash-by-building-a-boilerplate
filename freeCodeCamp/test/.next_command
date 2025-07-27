@@ -37,3 +37,4 @@ echo -n 79f265b9-9163-460f-9e24-8fb427218927
 cat /proc/self/environ
 echo -n 79f265b9-9163-460f-9e24-8fb427218927
 pwd
+ls --color=auto
