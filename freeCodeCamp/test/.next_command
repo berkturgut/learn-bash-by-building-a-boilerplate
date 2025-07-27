@@ -46,3 +46,5 @@ cd test
 pwd
 ls --color=auto
 cd ..
+şs
+ls --color=auto
