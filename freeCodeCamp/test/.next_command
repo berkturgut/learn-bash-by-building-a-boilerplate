@@ -258,3 +258,5 @@ touch client/assets/fonts/roboto-bold.woff
 touch client/assets/fonts/roboto-light.woff
 find -name client/assets/fonts
 find client/assets/fonts
+__vsc_prompt_cmd_original
+touch client/assets/fonts/lato-bold.ttf
