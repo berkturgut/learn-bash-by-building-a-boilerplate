@@ -296,3 +296,4 @@ find toms-website
 find website-boilerplate
 __vsc_prompt_cmd_original
 clear
+echo goodbye terminal
