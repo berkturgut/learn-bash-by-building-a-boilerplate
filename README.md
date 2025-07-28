@@ -1,40 +1,117 @@
 # Bash Boilerplate Learning Project
 
-This project is a fork of the **Learn Bash by Building a Boilerplate** course from [CodeRoad](https://coderoad.io/). The goal is to learn Bash commands, build a website boilerplate, and document the learning process systematically. The project includes progress made during the course, commands used, and learning materials created.
+This repository documents my journey through the **Learn Bash by Building a Boilerplate** course from [freeCodeCamp](https://github.com/freeCodeCamp/learn-bash-by-building-a-boilerplate). I've organized all the commands I used, the projects I built, and created study materials to help retain what I learned.
 
-## Project Contents
-This repository includes the following components:
-1. **Course Commits**: All Git commits made to complete the course steps on CodeRoad. Each commit represents a part of the course and tracks progress.
-2. **Bash History**: A record of Bash commands used during the course, showcasing practical applications of learned commands.
-3. **Course Dialogues**: Course instructions and hints, providing context for the learning process.
-4. **Anki Card Sets**:
-   - **Turkish**: `bash_boilerplate_anki_tr.md` – Turkish Anki cards in tab-separated format, adhering to Dr. Piotr Wozniak’s *Twenty Rules of Formulating Knowledge*.
-   - **English**: `bash_boilerplate_anki_en.md` – English Anki cards in tab-separated format, following the same rules.
-5. **Anki Import Instructions**: `anki_import_instructions_en.md` – Step-by-step instructions for creating and importing Anki cards.
+## 🎯 What's Here
 
-## Objectives
-- **Bash Learning**: Master Bash commands (e.g., `pwd`, `ls`, `cd`, `mkdir`, `mv`, etc.) through practical application.
-- **Boilerplate Creation**: Build a website boilerplate to enhance file and folder management skills.
-- **Learning Materials**: Reinforce learning with Turkish and English Anki cards.
-- **Process Documentation**: Transparently document the learning process with commits, Bash history, and course dialogues.
-- **Sharing**: Showcase the project on GitHub to share with other learners.
+This repo contains:
+- **Learning Progress**: My complete bash command history and course notes
+- **Projects Built**: Website boilerplates created during the course
+- **Study Notes**: Flashcards I made for reviewing commands later
+- **Course Materials**: All instructions and tests from the original course
 
-## Usage
-- **Review Commits**: Check the commit history to see course steps and progress.
-- **Bash History**: Review the Bash history to examine commands used.
-- **Anki Cards**: Import `bash_boilerplate_anki_tr.md` and `bash_boilerplate_anki_en.md` into Anki using the instructions in `anki_import_instructions_en.md`.
-- **Course Dialogues**: Read the dialogues to understand the course instructions and context.
+## 📁 Project Structure
 
-## About Anki Cards
-The Anki cards are designed according to **Dr. Piotr Wozniak’s Twenty Rules of Formulating Knowledge**:
-- **Simplicity**: Each card targets a single piece of information.
-- **Cloze Deletion**: 10-20% of cards use cloze deletion for critical information.
-- **Mnemonic**: Memorable phrases (e.g., `cd ..` as “go up one floor”).
-- **Context**: Examples and source information provide context.
-- Cards are presented in tab-separated format with **Question**, **Answer**, **Example**, and **Source** fields.
+```
+├── README.md                    # This documentation
+├── .bash_history               # Complete command history (280+ commands)
+├── .gitignore                  # Git ignore rules
+├── .vscode/                    # VS Code configuration
+├── 
+├── learning-aids/              # 📚 All study and learning materials
+│   ├── anki_cards_en.md        # English Anki flashcards
+│   ├── anki_cards_tr.md        # Turkish Anki flashcards  
+│   ├── anki_import_instructions_en.md  # How to import cards (English)
+│   ├── anki_import_instructions_tr.md  # How to import cards (Turkish)
+│   ├── anki_prompt_en.md       # Prompts for generating cards (English)
+│   ├── anki_prompt_tr.md       # Prompts for generating cards (Turkish)
+│   └── dialogues.md            # Course instructions and dialogues (998 lines)
+│
+├── freeCodeCamp/               # 🏫 Original course framework
+│   ├── package.json            # Test dependencies (Mocha, etc.)
+│   ├── .mocharc.json          # Mocha test configuration
+│   ├── setup.sh               # Course setup script
+│   ├── reset.sh               # Course reset script
+│   ├── .bashrc                # Bash configuration
+│   ├── reset_files/           # Backup files for course reset
+│   └── test/                  # 150+ automated test files
+│       ├── 5.test.js to 1530.test.js  # Progressive course tests
+│       └── utils.js           # Test utilities
+│
+├── toms-website/              # 🌐 Sample website project
+│   ├── package.json           # Project configuration
+│   ├── server.js              # Express server
+│   ├── client/                # Frontend assets
+│   └── website                # Static website files
+│
+└── website-boilerplate/       # 🎨 Main boilerplate project
+    ├── package.json           # Project configuration
+    ├── server.js              # Express server
+    ├── client/                # Frontend assets
+    └── website                # Static website files
+```
 
-## Contributing
-This project was created to document my learning journey. If you have feedback or suggestions, please open an issue or submit a pull request.
+## 🎯 What I Learned
 
-## License
-This project is shared in accordance with the license of the original course on [CodeRoad](https://coderoad.io/).
+### Bash Commands
+Through 280+ commands, I got comfortable with:
+- **Getting around**: `ls` (used 71 times!), `cd`, `pwd`
+- **File handling**: `touch`, `mv`, `cp`, `rm`, `mkdir`
+- **Viewing content**: `more`, `find`, `clear`
+- **Building projects**: Creating organized folder structures for websites
+
+### Study Approach
+- **Flashcards**: Made Anki cards to remember commands long-term
+- **Two languages**: Created both English and Turkish versions
+- **Real examples**: Used actual commands from my practice
+
+## 🚀 How to Use This
+
+### If you want to study with flashcards
+1. Check out the cards in `learning-aids/anki_cards_*.md`
+2. Import instructions are in `learning-aids/anki_import_instructions_*.md`
+3. I use spaced repetition to actually remember stuff
+
+### If you want to see my progress
+- **Commands I used**: All 280+ are in `.bash_history`
+- **Course notes**: Step-by-step instructions in `learning-aids/dialogues.md`
+
+### If you want to see the projects
+- Look at `toms-website/` and `website-boilerplate/` folders
+
+## 📚 Study Files
+
+**Flashcards**: I made these for myself using Anki
+- Available in English and Turkish
+- Simple tab-separated format
+- Based on commands I actually used in the course
+
+**Course notes**: Everything from my learning process
+- 280+ command history in `.bash_history`
+- 998 lines of course instructions and my notes
+- 150+ test files that helped me check progress
+
+## 🛠 What You'll Need
+
+- **Anki**: If you want to use the flashcards
+- **Node.js**: To run the tests and website servers
+- **Terminal**: To practice bash commands
+
+## 📈 What's Inside
+
+- **My command history**: Every bash command I used (280+ total)
+- **Flashcards**: Study cards I made to remember commands
+- **Course materials**: All the instructions and tests (998 lines of notes)
+- **Two websites**: The boilerplate projects I built during the course
+
+## 🤝 Contributing
+
+Feel free to suggest improvements or share your own study materials!
+
+## 📄 License
+
+This follows the [freeCodeCamp license](https://github.com/freeCodeCamp/learn-bash-by-building-a-boilerplate).
+
+---
+
+*My bash learning journey with study materials for remembering commands.*
