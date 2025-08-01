@@ -13,22 +13,17 @@ This repo contains:
 ## 📁 Project Structure
 
 ```
-├── README.md                    # This documentation
+├── README.md                   # This documentation
 ├── .bash_history               # Complete command history (280+ commands)
 ├── .gitignore                  # Git ignore rules
 ├── .vscode/                    # VS Code configuration
 ├── 
 ├── learning-aids/              # 📚 All study and learning materials
-│   ├── anki_cards_en.md        # English Anki flashcards
-│   ├── anki_cards_tr.md        # Turkish Anki flashcards  
-│   ├── anki_import_instructions_en.md  # How to import cards (English)
-│   ├── anki_import_instructions_tr.md  # How to import cards (Turkish)
-│   ├── anki_prompt_en.md       # Prompts for generating cards (English)
-│   ├── anki_prompt_tr.md       # Prompts for generating cards (Turkish)
+│   ├── anki_cards_tr.apkg        # Turkish Anki flashcards  
 │   └── dialogues.md            # Course instructions and dialogues (998 lines)
 │
-├── freeCodeCamp/               # 🏫 Original course framework
-│   ├── package.json            # Test dependencies (Mocha, etc.)
+├── freeCodeCamp/              # 🏫 Original course framework
+│   ├── package.json           # Test dependencies (Mocha, etc.)
 │   ├── .mocharc.json          # Mocha test configuration
 │   ├── setup.sh               # Course setup script
 │   ├── reset.sh               # Course reset script
